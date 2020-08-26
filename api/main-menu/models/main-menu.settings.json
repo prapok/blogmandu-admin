@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "main_menus",
+  "info": {
+    "name": "MainMenu"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "MenuItem": {
+      "type": "dynamiczone",
+      "components": [
+        "top-navigation.top-nav"
+      ]
+    }
+  }
+}

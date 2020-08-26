@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_top_navigation_top_navs",
+  "info": {
+    "name": "TopNav",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "category": {
+      "model": "categories"
+    },
+    "pages": {
+      "collection": "pages"
+    }
+  }
+}

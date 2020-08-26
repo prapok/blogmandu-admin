@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "top_menus",
+  "info": {
+    "name": "top-menu"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "body": {
+      "type": "dynamiczone",
+      "components": [
+        "menu.link",
+        "menu.dropdown"
+      ]
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "categories",
+  "info": {
+    "name": "categories"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "categoryname": {
+      "type": "string",
+      "unique": true
+    },
+    "blogs": {
+      "via": "categories",
+      "collection": "blogs",
+      "dominant": true
+    },
+    "categoryDescription": {
+      "type": "richtext"
+    }
+  }
+}
